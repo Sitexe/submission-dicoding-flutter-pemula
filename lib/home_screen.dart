@@ -15,7 +15,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       backgroundColor: Colors.black,
       appBar: AppBar(
-        title: Center(child: const Text('Toko  Online')),
+        title: Center(child: const Text('Ecomerce')),
       ),
       body: ListView.builder(
         itemBuilder: (context, index) {
